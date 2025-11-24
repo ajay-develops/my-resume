@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { FaDownload } from "react-icons/fa";
+import { ClipLoader } from "react-spinners";
 
 export default function DownloadButton() {
   const [isDownloading, setIsDownloading] = useState(false);
@@ -38,7 +39,11 @@ export default function DownloadButton() {
       className="fixed top-6 right-6 md:top-8 md:right-8 bg-white hover:bg-gray-50 text-black font-semibold py-2 px-4 rounded-lg shadow-md transition-all duration-200 flex items-center gap-2 no-print disabled:opacity-70 disabled:cursor-not-allowed z-50 border-2 border-black hover:border-gray-800 text-sm"
       title={isDownloading ? "Generating PDF..." : "Download Resume as PDF"}
     >
-      <FaDownload className={isDownloading ? "animate-spin" : ""} size={16} />
+      {isDownloading ? (
+        <ClipLoader size={16} color="#000000" />
+      ) : (
+        <FaDownload size={16} />
+      )}
       <span>{isDownloading ? "Generating..." : "Download"}</span>
     </button>
   );

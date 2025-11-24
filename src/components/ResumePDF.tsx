@@ -15,34 +15,37 @@ const styles = StyleSheet.create({
     lineHeight: 1.5,
   },
   header: {
-    marginBottom: 20,
-    paddingBottom: 15,
+    marginBottom: 24,
+    paddingBottom: 20,
     borderBottom: "2 solid #3B82F6",
   },
   name: {
     fontSize: 28,
     fontWeight: "bold",
-    marginBottom: 5,
+    marginBottom: 8,
     color: "#111827",
   },
   title: {
     fontSize: 16,
     color: "#3B82F6",
-    marginBottom: 10,
+    marginBottom: 16,
+    marginTop: 8,
     fontWeight: "semibold",
   },
   contactInfo: {
     flexDirection: "row",
     flexWrap: "wrap",
-    gap: 8,
+    gap: 12,
     fontSize: 10,
     color: "#374151",
+    marginTop: 8,
   },
   contactItem: {
-    marginRight: 12,
+    marginRight: 16,
   },
   section: {
-    marginBottom: 15,
+    marginBottom: 18,
+    marginTop: 4,
   },
   sectionTitle: {
     fontSize: 16,
@@ -64,9 +67,9 @@ const styles = StyleSheet.create({
     color: "#111827",
   },
   projectItem: {
-    marginBottom: 12,
-    paddingLeft: 8,
-    borderLeft: "3 solid #3B82F6",
+    marginBottom: 16,
+    paddingLeft: 12,
+    borderLeft: "4 solid #3B82F6",
   },
   projectHeader: {
     flexDirection: "row",
@@ -95,9 +98,9 @@ const styles = StyleSheet.create({
     color: "#374151",
   },
   experienceItem: {
-    marginBottom: 12,
-    paddingLeft: 8,
-    borderLeft: "3 solid #3B82F6",
+    marginBottom: 16,
+    paddingLeft: 12,
+    borderLeft: "4 solid #3B82F6",
   },
   experienceHeader: {
     flexDirection: "row",
