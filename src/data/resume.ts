@@ -72,6 +72,9 @@ export const resumeData: ResumeData = {
         "Redux",
         "TailwindCSS",
         "MaterialUI",
+        "shadcn/ui",
+        "MagicUI",
+        "HeroUI",
         "HTML5",
         "CSS3",
         "jQuery",
@@ -90,7 +93,7 @@ export const resumeData: ResumeData = {
     },
     {
       category: "Databases",
-      items: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+      items: ["PostgreSQL", "MySQL", "MongoDB"],
     },
     {
       category: "DevOps & Tools",
@@ -105,7 +108,7 @@ export const resumeData: ResumeData = {
     },
     {
       category: "CMS/CRM",
-      items: ["HubSpot (HubL)", "Payload CMS"],
+      items: ["HubSpot (HubL)", "Payload CMS", "Sanity CMS", "Prismic CMS", "GoHighLevel CRM"],
     },
   ],
   projects: [
