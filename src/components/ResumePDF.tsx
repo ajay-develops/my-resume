@@ -22,14 +22,14 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 28,
     fontWeight: "bold",
-    marginBottom: 8,
+    marginBottom: 12,
     color: "#111827",
   },
   title: {
     fontSize: 16,
     color: "#3B82F6",
     marginBottom: 16,
-    marginTop: 8,
+    marginTop: 12,
     fontWeight: "semibold",
   },
   contactInfo: {
