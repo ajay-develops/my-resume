@@ -35,13 +35,11 @@ export default function DownloadButton() {
     <button
       onClick={handleDownload}
       disabled={isDownloading}
-      className="fixed top-6 right-6 md:top-8 md:right-8 bg-accent-blue hover:bg-accent-blue-dark text-white font-bold py-4 px-6 rounded-xl shadow-2xl transition-all duration-200 flex items-center gap-3 no-print disabled:opacity-70 disabled:cursor-not-allowed z-50 border-2 border-white/20 backdrop-blur-sm text-base min-w-[180px] justify-center hover:scale-105 active:scale-95"
-      style={{
-        boxShadow: "0 10px 25px rgba(59, 130, 246, 0.4)",
-      }}
+      className="fixed top-6 right-6 md:top-8 md:right-8 bg-white hover:bg-gray-50 text-black font-semibold py-2 px-4 rounded-lg shadow-md transition-all duration-200 flex items-center gap-2 no-print disabled:opacity-70 disabled:cursor-not-allowed z-50 border-2 border-black hover:border-gray-800 text-sm"
+      title={isDownloading ? "Generating PDF..." : "Download Resume as PDF"}
     >
-      <FaDownload className={isDownloading ? "animate-spin" : ""} size={18} />
-      <span>{isDownloading ? "Generating PDF..." : "Download Resume"}</span>
+      <FaDownload className={isDownloading ? "animate-spin" : ""} size={16} />
+      <span>{isDownloading ? "Generating..." : "Download"}</span>
     </button>
   );
 }
