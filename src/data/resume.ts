@@ -75,6 +75,7 @@ export const resumeData: ResumeData = {
         "HTML5",
         "CSS3",
         "jQuery",
+        "i18next (Internationalization)",
       ],
     },
     {
@@ -84,6 +85,7 @@ export const resumeData: ResumeData = {
         "Express.js",
         "RESTful APIs",
         "Serverless Functions",
+        "Stripe Integration",
       ],
     },
     {
@@ -107,6 +109,20 @@ export const resumeData: ResumeData = {
     },
   ],
   projects: [
+    {
+      name: "Logopsi (Educational Platform)",
+      period: "Latest Project",
+      techStack: "Next.js 15, Payload CMS, MongoDB, Stream Chat, Stripe, TypeScript, TailwindCSS",
+      github: "https://github.com/ajay-develops/logopsi-merge",
+      description: [
+        "Architected a comprehensive multi-language educational platform supporting French, English, and Spanish with dynamic locale routing and i18n translation system.",
+        "Implemented Payload CMS for content management with custom collections for Exercises, Quizzes, Books, and Users, featuring role-based access control (Admin, Tutor, Child).",
+        "Integrated Stream Chat API for real-time messaging between tutors and children with channel management and automated cleanup via Vercel Cron jobs.",
+        "Built Stripe payment integration with multiple subscription tiers (Sapphire, Gold, Diamond, Emerald, Ruby) and payment success workflows.",
+        "Developed responsive dashboards for tutors and children with exercise assignment tracking, quiz management, and progress monitoring.",
+        "Migrated entire codebase from legacy translation system to modular dictionary structure, improving maintainability and translation workflow.",
+      ],
+    },
     {
       name: "Punjabi Beats (Music Streaming Application)",
       period: "Latest Project",
