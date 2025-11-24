@@ -22,18 +22,18 @@ A professional single-page resume application built with Next.js, featuring serv
 ### Prerequisites
 
 - Node.js 18+ 
-- npm or yarn
+- pnpm (install with `npm install -g pnpm` or `corepack enable`)
 
 ### Installation
 
 1. Install dependencies:
 ```bash
-npm install
+pnpm install
 ```
 
 2. Run the development server:
 ```bash
-npm run dev
+pnpm dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -41,8 +41,8 @@ npm run dev
 ### Building for Production
 
 ```bash
-npm run build
-npm start
+pnpm build
+pnpm start
 ```
 
 ## PDF Generation
