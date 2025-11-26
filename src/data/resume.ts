@@ -192,7 +192,7 @@ export const resumeData: ResumeData = {
       position: "Junior Software Developer",
       location: "Kota",
       startDate: "Jul 2022",
-      endDate: "Oct 2023",
+      endDate: "Oct 2022",
       responsibilities: [
         "Built and customized Shopify add-ons and themes using Liquid, HTML, CSS, and JavaScript.",
         "Optimized frontend performance using GSAP and Framer Motion for smooth animations and user interactions.",
