@@ -149,7 +149,23 @@ export default function Resume() {
         <ul className="list-disc list-inside space-y-1 text-gray-700 ml-2">
           {certifications.map((cert, index) => (
             <li key={index} className="leading-relaxed">
-              <span className="font-semibold">{cert.name}</span> ({cert.issuer})
+              {cert.link ? (
+                <>
+                  <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-accent-blue hover:text-accent-blue-dark hover:underline"
+                  >
+                    {cert.name}
+                  </a>{" "}
+                  ({cert.issuer})
+                </>
+              ) : (
+                <>
+                  <span className="font-semibold">{cert.name}</span> ({cert.issuer})
+                </>
+              )}
             </li>
           ))}
         </ul>

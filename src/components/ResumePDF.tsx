@@ -232,7 +232,15 @@ export const ResumePDF = () => {
           <Text style={styles.sectionTitle}>CERTIFICATIONS</Text>
           {certifications.map((cert, index) => (
             <Text key={index} style={styles.bulletPoint}>
-              • <Text style={styles.skillCategory}>{cert.name}</Text> ({cert.issuer})
+              •{" "}
+              {cert.link ? (
+                <Link src={cert.link} style={[styles.skillCategory, styles.link]}>
+                  {cert.name}
+                </Link>
+              ) : (
+                <Text style={styles.skillCategory}>{cert.name}</Text>
+              )}{" "}
+              ({cert.issuer})
             </Text>
           ))}
         </View>

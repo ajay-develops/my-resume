@@ -40,6 +40,7 @@ export interface Education {
 export interface Certification {
   name: string;
   issuer: string;
+  link?: string;
 }
 
 export interface ResumeData {
@@ -223,10 +224,12 @@ export const resumeData: ResumeData = {
     {
       name: "Full Stack Web Development Bootcamp",
       issuer: "Udemy - Angela Yu",
+      link: "https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386072?start=0#overview",
     },
     {
       name: "HackerRank JavaScript (Intermediate)",
       issuer: "HackerRank",
+      link: "https://www.hackerrank.com/certificates/d7b67ff3f0de",
     },
   ],
 };
