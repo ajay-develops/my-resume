@@ -15,14 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ajay Kumar - Full Stack Developer",
   description: "Full Stack Developer Resume - MERN Stack Specialist",
-  icons: {
-    icon: [
-      { url: "/pic.jpeg", type: "image/jpeg" },
-    ],
-    apple: [
-      { url: "/pic.jpeg", type: "image/jpeg", sizes: "180x180" },
-    ],
-  },
 };
 
 export default function RootLayout({
