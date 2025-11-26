@@ -179,7 +179,7 @@ export const resumeData: ResumeData = {
       position: "Full Stack Developer",
       location: "Mohali",
       startDate: "Apr 2023",
-      endDate: "Mar 2024",
+      endDate: "Oct 2023",
       responsibilities: [
         "Developed custom automation solutions and private apps using Node.js for clients on HubSpot and Pipedrive CRMs.",
         "Built high-converting landing pages and email templates using HubL, JavaScript, and jQuery.",
@@ -196,6 +196,19 @@ export const resumeData: ResumeData = {
         "Built and customized Shopify add-ons and themes using Liquid, HTML, CSS, and JavaScript.",
         "Optimized frontend performance using GSAP and Framer Motion for smooth animations and user interactions.",
         "Assisted in the development of Android applications using React Native, bridging the gap between web and mobile experiences.",
+      ],
+    },
+    {
+      company: "Talentelgia Technologies PVT LTD",
+      position: "Software Intern",
+      location: "Punjab, India",
+      startDate: "Feb 2022",
+      endDate: "Jun 2022",
+      responsibilities: [
+        "Learned and created web projects using HTML, CSS and Bootstrap, JavaScript, jQuery, NodeJS, ExpressJS, EJS, MongoDB.",
+        "Built an e-commerce store front-end and back-end using ReactJS and ExpressJS respectively.",
+        "Built an online Calculator.",
+        "Built a Game similar to dino game in chrome browser.",
       ],
     },
   ],
